@@ -1,0 +1,41 @@
+a {
+    color: black;
+    text-decoration: none;
+    padding: 0.3rem;
+}
+
+a:hover {
+    color: purple;
+    transition: color 2.5 ease-out;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main#main {
+    padding: 4rem;
+    border: 10px;
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
+    font-size: 4rem;
+}
+
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 0rem;
+    margin-left: 0;
+}
